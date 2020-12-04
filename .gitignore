@@ -1,0 +1,11 @@
+.buildpath
+.hgignore.swp
+.project
+.orig
+.swp
+bin/
+*/.DS_Store
+main
+.vscode
+go.sum
+__debug_bin
