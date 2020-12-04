@@ -1,5 +1,13 @@
 # dexif
-dexif write in [go](https://golang.org/).It use to remove extension info from image, like Exif, TIFF.
+dexif write in [go](https://golang.org/). It use to remove extension info from image, like Exif, TIFF.
+
+For example, when your image export from photoshop, the image has extension info 'Adobe PhotoShop xxx':
+![before](https://github.com/insuns/dexif/blob/master/image/before.png?raw=true)
+
+Now you can easy run dexif to remove it `./dexif -f /path/to/your/image.jpg`
+
+The result is:
+![after](https://github.com/insuns/dexif/blob/master/image/after.png?raw=true)
 
 # How to build
 System request go 1.11+
