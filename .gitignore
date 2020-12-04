@@ -9,3 +9,4 @@ main
 .vscode
 go.sum
 __debug_bin
+.DS_Store
