@@ -9,9 +9,7 @@ test:
 clean: 
 	go clean
 	rm -rf $(BUILD_DIR)
-	rm -rf $(BINARY_NAME)-osx-amd64.tar.gz
-	rm -rf $(BINARY_NAME)-windows-amd64.tar.gz
-	rm -rf $(BINARY_NAME)-linux-amd64.tar.gz
+	rm -rf $(BINARY_NAME)-amd64.tar.gz
 
 # Cross compilation
 # build darwin
